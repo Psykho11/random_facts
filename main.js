@@ -16,7 +16,7 @@ function onFetchSuccess(response) {
 }
 
 function myname () {
-    fetch("http://numbersapi.com/random/trivia?json").then(onFetchSuccess);
+    fetch("https://uselessfacts.jsph.pl/random.json?language=en").then(onFetchSuccess);
    
 }
 
